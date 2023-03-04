@@ -1,7 +1,10 @@
 {
   "index": {
     "title": "Home",
-    "type": "page"
+    "type": "page",
+    "theme": {
+      "typesetting": "article"
+    }
   },
   "frameworks": {
     "title": "Frameworks",
@@ -14,5 +17,19 @@
   "about": {
     "title": "About",
     "type": "page"
+  },
+  "more": {
+    "title": "More",
+    "type": "menu",
+    "items": {
+      "about": {
+        "title": "About",
+        "href": "/about"
+      },
+      "contact": {
+        "title": "Contact me",
+        "href": "mailto:quanscheng@163.com"
+      }
+    }
   }
 }
